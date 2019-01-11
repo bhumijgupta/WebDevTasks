@@ -1,0 +1,45 @@
+body{
+ 	margin: 0;
+ }
+ .parent{
+ 	width: 480px;
+ 	height: 330px;
+ 	position: relative;
+ 	color: white;
+ }
+.square{
+ 	float: left;
+ 	width: 150px;
+ 	height: 100px;
+ 	margin: 5px;
+ 	font-family: 'Roboto', sans-serif;
+ 	text-align: center;
+ 	font-size: 1.5em;
+ 	line-height: 100px;
+ }
+/* .float{
+ 	float: left;
+ }*/
+ #A{
+ 	background-color: #00dd98;
+ }
+ #B{
+ 	background-color: #dc9900;
+ }
+ #D{
+ 	background-color: #9a00de;
+ }
+ #E{
+ 	background-color: #dd0199;
+ }
+ #C{
+ 	width: 310px;
+ 	height: 210px;
+ 	background-color: #99dc00;
+ }
+ #F{
+ 	position: absolute;
+ 	bottom: 0;
+ 	left: 0;
+ 	background-color: #0099dd;
+ }
