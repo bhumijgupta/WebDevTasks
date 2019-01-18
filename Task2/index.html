@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <title>Testing scroll function</title>
+    <style type="text/css">
+      body{
+        background: rgb(255,255,30);
+        margin: 0;
+        height: 1200px;
+      }
+      .top{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index:1;
+      }
+      .bg{
+        height:8px;
+        background: #ccc;
+        width: 100%
+      }
+      .color{
+        height:8px;
+        background: rgb(10,200,0);
+        width: 0%;
+       }
+    </style>
+  </head>
+  <body>
+    <div class="top">
+      <div class="bg">
+        <div class="color">
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="scroll.js"></script>
+  </body>
+</html>
