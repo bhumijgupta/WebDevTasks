@@ -1,0 +1,108 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #23599b;
+}
+.nav-link{
+    font-weight: 500;
+    font-size: 20px; 
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+    color: #23599b;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #23599b;
+}
+.nav-item{
+    padding: 0 4px;
+}
+.container-fluid{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.bg-light {
+    background-color: #ffffff!important;
+    box-shadow: 0 0 5px 0px #0000005e;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+    color: #23599b;
+}
+
+.navbar-light .navbar-toggler{
+    border: none;
+}
+
+.navbar-light .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(35,89,155)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E")
+}
+
+.navbar-brand{
+    max-width: 90%;
+    height: 40px;
+}
+.navbar-brand img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.navbar{
+    height: 62px;
+}
+
+#heroBanner{
+    background: #23599b;
+    color: white;
+    height: 70vh;
+    margin-top: 62px;
+    text-align: center;
+    display: flex;
+}
+.container .logo{
+    display: inline-block;
+    height: 45vh;
+    margin: 0 auto;
+    width:100%;
+}
+.container .logo img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.container h2{
+    font-size: 1.7em;
+    margin-top: 30px;
+}
+
+.container-fluid h1{
+    text-align: center;
+    font-size: 1.7em;
+}
+
+.container-fluid.content{
+    padding: 30px 36px;
+}
+
+ul{
+    list-style-image: url("media/Light-BG.png");
+    list-style-position: outside;
+}
+
+.list li{
+    margin-top: 25px;
+}
+
+.ideaTitle{
+    font-size: 1.3em;
+    font-weight: 500;
+}
+.ideaAuthor{
+    font-size: 1.3em;
+    font-weight: 400;
+}
+
+.ideaShort{
+    font-size: 0.9em;
+    color: black;
+    font-weight: 400;
+}
+
