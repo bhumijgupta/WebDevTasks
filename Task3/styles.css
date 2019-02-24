@@ -49,6 +49,10 @@ body{
     height: 62px;
 }
 
+#navbarSupportedContent{
+    background: white;
+}
+
 #heroBanner{
     background: #23599b;
     color: white;
@@ -57,13 +61,20 @@ body{
     text-align: center;
     display: flex;
 }
-.container .logo{
-    display: inline-block;
-    height: 45vh;
-    margin: 0 auto;
-    width:100%;
+
+.container{
+    padding-left: 36px;
+    padding-right: 36px;
 }
-.container .logo img{
+
+.container.my-auto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.container img{
     max-height: 100%;
     max-width: 100%;
 }
@@ -72,6 +83,7 @@ body{
     font-size: 1.7em;
     margin-top: 30px;
 }
+
 
 .container-fluid h1{
     text-align: center;
