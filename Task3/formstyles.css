@@ -53,68 +53,61 @@ body{
     background: white;
 }
 
-#heroBanner{
-    background: #23599b;
-    color: white;
-    height: 70vh;
+.container-fluid.content{
     margin-top: 62px;
-    text-align: center;
-    display: flex;
+    padding: 36px 30px;
 }
-
-.container{
-    padding-left: 36px;
-    padding-right: 36px;
-}
-
-.container.my-auto{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-}
-.container img{
-    max-height: 35vh;
-    max-width: 100%;
-}
-
-.container h2{
-    font-size: 1.7em;
-    margin-top: 30px;
-}
-
 
 .container-fluid h1{
-    text-align: center;
     font-size: 1.7em;
-}
-
-.container-fluid.content{
-    padding: 30px 36px;
-}
-
-ul{
-    list-style-image: url("media/Light-BG.png");
-    list-style-position: outside;
-}
-
-.list li{
-    margin-top: 25px;
-}
-
-.ideaTitle{
-    font-size: 1.3em;
+    text-align: center;
     font-weight: 500;
 }
-.ideaAuthor{
-    font-size: 1.3em;
-    font-weight: 400;
-}
 
-.ideaShort{
-    font-size: 0.9em;
+.container-fluid .desc{
     color: black;
+    margin-top: 15px;
+    font-size: 0.9em;
     font-weight: 400;
+    text-align: center;
 }
 
+form{
+    margin-top: 60px;
+}
+
+.form-group{
+    margin-bottom: 20px;
+}
+
+label{
+    font-weight: 500;
+    font-size: 1.3em;
+}
+
+button[type="submit"]{
+    margin-top: 10px;
+    border-radius: 45px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.3em;
+    background-color: #23599b;
+    padding: 5px 15px;
+    border: none;
+    color: white;
+    user-select: none;
+    -webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+}
+
+button[type="submit"]:disabled{
+    color: #23599baf;
+    border: 2px solid #23599baf;
+    background-color: white;
+}
+
+button[type="submit"]:hover, button[type="submit"].focus{
+    box-shadow: 0 0 5px 0px #0000005e;
+    transition: 0.2s;
+}
